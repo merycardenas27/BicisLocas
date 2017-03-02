@@ -1,0 +1,72 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bicis Locas</title>
+    <link rel="icon"
+      type="image/ico"
+      href="img/favicon.ico">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:200,300,400,500" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/registro.css">
+  </head>
+  <body>
+    <section class="form-container">
+      <div class="container-fluid">
+        <form class="form-signup">
+          <h2 id="form-signup-heading">
+            Bicis Locas
+          </h2>
+          <div class="name-container input-box">
+            <label for="name" class="sr-only">Nombre</label>
+            <input type="text" id="name" class="form-control"
+            placeholder="Ingrese su nombre">
+          </div>
+          <div class="lastname-container input-box">
+            <label for="lastname" class="sr-only">Apellido</label>
+            <input type="text" id="lastname" class="form-control"
+            placeholder="Ingrese su apellido">
+          </div>
+          <div class="email-container input-box">
+            <label for="inputEmail" class="sr-only">
+              Correo Electrónico
+            </label>
+            <input type="email" id="input-email" class="form-control" placeholder="Ingrese su correo electrónico" autofocus="">
+          </div>
+          <div class="form-group">
+            <label for="inputPassword" class="sr-only">
+              Contraseña
+            </label>
+            <input type="password" id="input-password" class="form-control" placeholder="Ingrese su contraseña">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option value="0">Selecciona tu tipo de bici</option>
+              <option value="urbana">Urbana</option>
+              <option value="treking">Treking</option>
+              <option value="electrica">Eléctrica</option>
+              <option value="estatica">Estática</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <div class="input-group-addon">@</div>
+            <input type="text" class="form-control" id="input-social" placeholder="Twitter">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me">
+              <span>Deseo recibir información vía email</span>
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit">Registrar</button>
+        </form>
+      </div>  
+    </section>
+    <!-- /container -->
+    <script type='text/javascript' src='js/main.js'></script>
+    <script type='text/javascript' src='js/donottouchthisfile.js'></script>
+  </body>
+</html>
