@@ -23,18 +23,18 @@
           <div class="name-container input-box">
             <label for="name" class="sr-only">Nombre</label>
             <input type="text" id="name" class="form-control"
-            placeholder="Ingrese su nombre">
+            placeholder="Ingrese su nombre" required>
           </div>
           <div class="lastname-container input-box">
             <label for="lastname" class="sr-only">Apellido</label>
             <input type="text" id="lastname" class="form-control"
-            placeholder="Ingrese su apellido">
+            placeholder="Ingrese su apellido" required>
           </div>
           <div class="email-container input-box">
             <label for="inputEmail" class="sr-only">
               Correo Electrónico
             </label>
-            <input type="email" id="input-email" class="form-control" placeholder="Ingrese su correo electrónico" autofocus="">
+            <input type="email" id="input-email" class="form-control" placeholder="Ingrese su correo electrónico" autofocus="" required>
           </div>
           <div class="form-group">
             <label for="inputPassword" class="sr-only">
@@ -43,7 +43,7 @@
             <input type="password" id="input-password" class="form-control" placeholder="Ingrese su contraseña">
           </div>
           <div class="form-group">
-            <select class="form-control">
+            <select class="form-control" id="bikes">
               <option value="0">Selecciona tu tipo de bici</option>
               <option value="urbana">Urbana</option>
               <option value="treking">Treking</option>
@@ -63,7 +63,7 @@
           </div>
           <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit">Registrar</button>
         </form>
-      </div>  
+      </div>
     </section>
     <!-- /container -->
     <script type='text/javascript' src='js/main.js'></script>
