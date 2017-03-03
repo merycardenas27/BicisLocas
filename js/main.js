@@ -1,9 +1,9 @@
 function validateForm(){
-  var filters = [/^[A-Z][a-z\s]*$/g,//Para name-->Sólo letras, mayúsculas o minúsculas, acepta espacios en blanco
-                 /^[A-Z][a-z\s]*$/g,//Para lastName-->Sólo letras, mayúsculas o minúsculas, acepta espacios en blanco
-                 /^([a-z]+[a-z1-9._-]*)@{1}([a-z1-9\.]{2,})\.([a-z]{2,3})$/,
-                 /^[^password|PASSWORD][^123456|098754]\w{6,}$/g,
-                 /^[^0]*$/
+  var filters = [/[A-Z][a-z]+/g,//Para name-->Sólo letras, mayúsculas o minúsculas, acepta espacios en blanco
+                 /[A-Z][a-z]+/g,//Para lastName-->Sólo letras, mayúsculas o minúsculas, acepta espacios en blanco
+                 /([a-z]+[a-z1-9._-]*)@{1}([a-z1-9\.]{2,})\.([a-z]{2,3})/,
+                 /([^password|PASSWORD|123456|098754]){6,}/g,
+                 /^[^0]/
                 ];
   var data = {
                 name : document.getElementById('name').value,
