@@ -3,3 +3,5 @@ Bicis locas es una tienda online, en la cual encontrarás tu bici ideal. Sólo l
 
 ![bicis-locas-preview](https://user-images.githubusercontent.com/25912796/36112458-b49be682-0ff7-11e8-9f3f-df4d490128a5.png)
 
+## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
+
